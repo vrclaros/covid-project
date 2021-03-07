@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Required meta tags-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Covid Worldwide Progress</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='js/plots.js')}}"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-text">
+      <!-- <h1>Covid Immunization Progress****</h1> -->
+      <h1>Covid Analysis</h1>
+      <p>Explore the dataset for each country</p>
+      <!-- <a href="/book.html"><button class="bookButton">Covid Immunization Prediction</button****></a> -->
+      <a href="/predictions" class="hero-btn">Covid Immunization Prediction</a>
+      <!-- <button>Covid Immunization Prediction </button> -->
+    </div>
+  </div>
+  </div>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"></a>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <!-- <div class="col-md-12 jumbotron text-center"****> -->
+      <div class="container">
+        <div class=“row margin-top-50”>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title" style="text-align:center;" >Covid Cases and Deaths since January 2021</h3>
+            </div>
+            <!-- <div id="sample-metadata" class="panel-body"></div> -->
+          </div>
+        </div>
+          <div class=“col-md-2">
+            <div class="row">
+              <div class="col-md-2">
+                <div class="well">
+                  <h5>SELECT Country:</h5>
+                  <select id="country" onchange="optionChanged(this.value)">
+                    <!-- <select id="country" onchange="alert(this.value)****"> -->
+                    {% for country in countries['country'] %}
+                    <option value="{{country}}">{{country}}</option>
+                    {% endfor %}
+                  </select>
+
+                </div>
+                <!-- <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Most current data of Covid Cases since January 2021.</h3>
+                  </div>
+                  <!<div id="sample-metadata" class="panel-body"></div> -->
+                </div>
+              </div>
+              <!-- <div class="col-md-5"****>
+              <div id="plot_data">****</div>
+            </div****> -->
+              <div class="col-md-5">
+                <div id="plot_data2"></div>
+              </div>
+              <div class="col-md-5">
+                <div id="plot_data3"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div id="bubble"></div>
+              </div>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+          <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</body>
+
+</html>

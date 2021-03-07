@@ -1,0 +1,53 @@
+/* The hero image */
+body, html {
+  height: 100%;
+}
+
+.hero {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("covid_medium.jpg");
+
+/* Set a specific height */
+height: 50%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+/* .hero .btn {
+  display: block
+  width: 200px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}  */
+
+.hero-btn {
+  background-color: rgba(120, 122, 124, 0.815);
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+}
