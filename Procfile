@@ -1,0 +1,1 @@
+web: gunicorn CovidApp.app:app
