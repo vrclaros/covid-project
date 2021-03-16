@@ -7,11 +7,8 @@
 ### • Worked in project as part of team to build models, build visualizations and deploy in Heroku (covid-analysis-project2.herokuapp.com)
 ### • Python, Pandas, Machine Learning, HTLM/CSS, JavaScript, Heroku
 
+<img src="https://github.com/vrclaros/covid-project/blob/main/Images/Covid_pic_1.PNG" width="900">
 
-![Covid_pic_1](../main/Images/covid_pic_1.png)
+<img src="https://github.com/vrclaros/covid-project/blob/main/Images/Covid_pic_2.PNG" width="900">
 
-![] https://github.com/vrclaros/covid-project/blob/main/Images/Covid_pic_1.PNG
-
-![](Images/Covid_pic_2.png)
-
-![Covid_pic_3](Images/covid_pic_3.png)
+<img src="https://github.com/vrclaros/covid-project/blob/main/Images/Covid_pic_3.PNG" width="900">
