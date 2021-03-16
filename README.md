@@ -8,3 +8,8 @@
 ### • Python, Pandas, Machine Learning, HTLM/CSS, JavaScript, Heroku
 
 
+![Covid_pic_1](Images/Covid_pic_1.png)
+
+![Covid_pic_2](Images/Covid_pic_2.png)
+
+![Covid_pic_3](Images/Covid_pic_3.png)
