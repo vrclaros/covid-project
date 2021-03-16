@@ -10,6 +10,8 @@
 
 ![Covid_pic_1](../main/Images/covid_pic_1.png)
 
-![Covid_pic_2](Images/covid_pic_2.png)
+![] https://github.com/vrclaros/covid-project/blob/main/Images/Covid_pic_1.PNG
+
+![](Images/Covid_pic_2.png)
 
 ![Covid_pic_3](Images/covid_pic_3.png)
